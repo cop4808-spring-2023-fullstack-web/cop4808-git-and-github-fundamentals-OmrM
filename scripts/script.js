@@ -32,15 +32,32 @@ function clickButton() {
             } else if(buttons[i].classList.contains('equals')) {
                 inputEquals();
                 updateDisplay();
+
             } else if(buttons[i].classList.contains('decimal')) {
                 inputDecimal(buttons[i].value);
                 updateDisplay();
+
             } else if(buttons[i].classList.contains('percent')) {
                 inputPercent(displayValue);
                 updateDisplay();
+
             } else if(buttons[i].classList.contains('sign')) {
                 inputSign(displayValue);
                 updateDisplay();
+            
+            } else if(buttons[i].classList.contains('ln')) {
+                inputLn(displayValue)
+                updateDisplay();
+            } else if(buttons[i].classList.contains('sqrt')) {
+                inputSqrt(displayValue);
+                updateDisplay
+            } else if(buttons[i].classList.contains('square')) {
+                inputSquare(displayValue)
+                updateDisplay
+            } else if(buttons[i].classList.contains('pi')) {
+                inputPi();
+                updateDisplay
+            
             } else if(buttons[i].classList.contains('clear'))
                 clearDisplay();
                 updateDisplay();
@@ -181,4 +198,25 @@ function operate(x, y, op) {
 
 function roundAccurately(num, places) {
     return parseFloat(Math.round(num + 'e' + places) + 'e-' + places);
+}
+
+
+//function for natural log (ln)
+function inputLn(num) {
+    displayValue = (Math.log2(num)).toString();
+}
+
+//function for square root 
+function inputSqrt(num) {
+    displayValue = (Math.sqrt(num)).toString()
+}
+
+//function for x^2 button
+function inputSquare(num) {
+    displayValue = (Math.pow(num, 2)).toString()
+}
+
+//function for pi button
+function inputPi(){
+    displayValue = 3.1415926
 }

@@ -108,3 +108,16 @@ button {
 .percent:active {
     background-color: rgb(123, 189, 255);
 }
+
+.top-row-button {
+    background-color: #FF8F1F;
+    margin: 1px;
+    border-radius: 5%;
+    border: none;
+    font-weight: bold;
+
+}
+
+.top-row-button:active {
+    background-color: #ffc183;
+}

@@ -5,7 +5,8 @@ Omar Muniz
     - [x] Square root button
     - [x] Square Button - to raise number to the Power of 2
     - [x] Pi button
-
+Video Walkthrough: 
+ <img src='https://github.com/cop4808-spring-2023-fullstack-web/cop4808-git-and-github-fundamentals-OmrM/blob/main/hw2-calculator.gif' title='Video Walkthrough' width='600' alt='Video Walkthrough' />
 # :wave: The Basics of GitHub 
 
 ## 🤓 Course overview and learning outcomes 

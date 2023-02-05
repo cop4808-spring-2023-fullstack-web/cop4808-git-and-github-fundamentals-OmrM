@@ -1,4 +1,11 @@
 Omar Muniz
+# Calculator Upgrades for HW2: 
+[x] Added 4 new buttons along with their functions
+    [x] Ln button
+    [x] Square root button
+    [x] Square Button - to raise number to the Power of 2
+    [x] Pi button
+
 # :wave: The Basics of GitHub 
 
 ## 🤓 Course overview and learning outcomes 
